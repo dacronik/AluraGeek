@@ -5,29 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FunnyGames</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Archivos CSS-->
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/bannner.css">
 </head>
 <body>
-    <header class="head container">
-        <img src="assets/img/Logo.png" alt="Logo de Apeperia" class="head__logo">
-        
+    <header class="header_container">
+        <div class="header__content">
+          <img src="assets/img/Logo.png" alt="Logo aluraGeek" class="header__logo">
+        <div class="hearder__search">
+          <input class="header__input" type="search" name="search" id="search" placeholder="¿Qué deseas Buscar?" >
+        </div>
+        <button class="header__button">Login</button>
+        </div>
     </header>
-    <main>
-        <section class="banner container">
-            <div class="slider">
-                <div>
-                  <img src="app/img/banner/banner1.png" alt="" />
-                </div>
-                <div>
-                  <img src="app/img/banner/banner2.png" alt="" />
-                </div>
-                <div>
-                  <img src="app/img/banner/banner3.png" alt="" />
-                </div>
-              </div>
-        </section>
-    </main>
+
+    <section class="banner">
+        <div class="banner__content">
+          <img src="assets/img/banner-image.png" alt="" />
+          <div class="banner__text">
+            <h1>Otoño Promocional</h1>
+            <p>Productos seleccionados con 33% de descuento</p>
+            <button>ver consolas</button>
+          </div>
+        </div>
+    </section>
+  
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="script.js"></script>
 </body>
